@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D151CD1C14C879CF00DC6270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D151CD1B14C879CF00DC6270 /* UIKit.framework */; };
+		D151CD1E14C879CF00DC6270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D151CD1D14C879CF00DC6270 /* Foundation.framework */; };
+		D151CD2014C879CF00DC6270 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D151CD1F14C879CF00DC6270 /* CoreGraphics.framework */; };
+		D151CD2614C879CF00DC6270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D151CD2414C879CF00DC6270 /* InfoPlist.strings */; };
+		D151CD2814C879CF00DC6270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D151CD2714C879CF00DC6270 /* main.m */; };
+		D151CD2C14C879D000DC6270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D151CD2B14C879D000DC6270 /* AppDelegate.m */; };
+		D151CD2F14C879D000DC6270 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D151CD2D14C879D000DC6270 /* MainStoryboard.storyboard */; };
+		D151CD3214C879D000DC6270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D151CD3114C879D000DC6270 /* ViewController.m */; };
+		D151CD3F14C87A6200DC6270 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = D151CD3914C87A6200DC6270 /* one.png */; };
+		D151CD4014C87A6200DC6270 /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = D151CD3A14C87A6200DC6270 /* two.png */; };
+		D151CD4114C87A6200DC6270 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = D151CD3B14C87A6200DC6270 /* three.png */; };
+		D151CD4214C87A6200DC6270 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = D151CD3C14C87A6200DC6270 /* four.png */; };
+		D151CD4314C87A6200DC6270 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = D151CD3D14C87A6200DC6270 /* five.png */; };
+		D151CD4414C87A6200DC6270 /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = D151CD3E14C87A6200DC6270 /* six.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D151CD1714C879CF00DC6270 /* DiceRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D151CD1B14C879CF00DC6270 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D151CD1D14C879CF00DC6270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D151CD1F14C879CF00DC6270 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D151CD2314C879CF00DC6270 /* DiceRoll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceRoll-Info.plist"; sourceTree = "<group>"; };
+		D151CD2514C879CF00DC6270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D151CD2714C879CF00DC6270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D151CD2914C879CF00DC6270 /* DiceRoll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiceRoll-Prefix.pch"; sourceTree = "<group>"; };
+		D151CD2A14C879D000DC6270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D151CD2B14C879D000DC6270 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D151CD2E14C879D000DC6270 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D151CD3014C879D000DC6270 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D151CD3114C879D000DC6270 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D151CD3914C87A6200DC6270 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		D151CD3A14C87A6200DC6270 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		D151CD3B14C87A6200DC6270 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		D151CD3C14C87A6200DC6270 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		D151CD3D14C87A6200DC6270 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		D151CD3E14C87A6200DC6270 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D151CD1414C879CF00DC6270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D151CD1C14C879CF00DC6270 /* UIKit.framework in Frameworks */,
+				D151CD1E14C879CF00DC6270 /* Foundation.framework in Frameworks */,
+				D151CD2014C879CF00DC6270 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D151CD0C14C879CF00DC6270 = {
+			isa = PBXGroup;
+			children = (
+				D151CD2114C879CF00DC6270 /* DiceRoll */,
+				D151CD1A14C879CF00DC6270 /* Frameworks */,
+				D151CD1814C879CF00DC6270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D151CD1814C879CF00DC6270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D151CD1714C879CF00DC6270 /* DiceRoll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D151CD1A14C879CF00DC6270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D151CD1B14C879CF00DC6270 /* UIKit.framework */,
+				D151CD1D14C879CF00DC6270 /* Foundation.framework */,
+				D151CD1F14C879CF00DC6270 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D151CD2114C879CF00DC6270 /* DiceRoll */ = {
+			isa = PBXGroup;
+			children = (
+				D151CD2A14C879D000DC6270 /* AppDelegate.h */,
+				D151CD2B14C879D000DC6270 /* AppDelegate.m */,
+				D151CD2D14C879D000DC6270 /* MainStoryboard.storyboard */,
+				D151CD3014C879D000DC6270 /* ViewController.h */,
+				D151CD3114C879D000DC6270 /* ViewController.m */,
+				D151CD2214C879CF00DC6270 /* Supporting Files */,
+			);
+			path = DiceRoll;
+			sourceTree = "<group>";
+		};
+		D151CD2214C879CF00DC6270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D151CD3814C87A5500DC6270 /* images */,
+				D151CD2314C879CF00DC6270 /* DiceRoll-Info.plist */,
+				D151CD2414C879CF00DC6270 /* InfoPlist.strings */,
+				D151CD2714C879CF00DC6270 /* main.m */,
+				D151CD2914C879CF00DC6270 /* DiceRoll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D151CD3814C87A5500DC6270 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D151CD3914C87A6200DC6270 /* one.png */,
+				D151CD3A14C87A6200DC6270 /* two.png */,
+				D151CD3B14C87A6200DC6270 /* three.png */,
+				D151CD3C14C87A6200DC6270 /* four.png */,
+				D151CD3D14C87A6200DC6270 /* five.png */,
+				D151CD3E14C87A6200DC6270 /* six.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D151CD1614C879CF00DC6270 /* DiceRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D151CD3514C879D000DC6270 /* Build configuration list for PBXNativeTarget "DiceRoll" */;
+			buildPhases = (
+				D151CD1314C879CF00DC6270 /* Sources */,
+				D151CD1414C879CF00DC6270 /* Frameworks */,
+				D151CD1514C879CF00DC6270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceRoll;
+			productName = DiceRoll;
+			productReference = D151CD1714C879CF00DC6270 /* DiceRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D151CD0E14C879CF00DC6270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Apps and Wonders";
+			};
+			buildConfigurationList = D151CD1114C879CF00DC6270 /* Build configuration list for PBXProject "DiceRoll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D151CD0C14C879CF00DC6270;
+			productRefGroup = D151CD1814C879CF00DC6270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D151CD1614C879CF00DC6270 /* DiceRoll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D151CD1514C879CF00DC6270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D151CD2614C879CF00DC6270 /* InfoPlist.strings in Resources */,
+				D151CD2F14C879D000DC6270 /* MainStoryboard.storyboard in Resources */,
+				D151CD3F14C87A6200DC6270 /* one.png in Resources */,
+				D151CD4014C87A6200DC6270 /* two.png in Resources */,
+				D151CD4114C87A6200DC6270 /* three.png in Resources */,
+				D151CD4214C87A6200DC6270 /* four.png in Resources */,
+				D151CD4314C87A6200DC6270 /* five.png in Resources */,
+				D151CD4414C87A6200DC6270 /* six.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D151CD1314C879CF00DC6270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D151CD2814C879CF00DC6270 /* main.m in Sources */,
+				D151CD2C14C879D000DC6270 /* AppDelegate.m in Sources */,
+				D151CD3214C879D000DC6270 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D151CD2414C879CF00DC6270 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D151CD2514C879CF00DC6270 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D151CD2D14C879D000DC6270 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D151CD2E14C879D000DC6270 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D151CD3314C879D000DC6270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D151CD3414C879D000DC6270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D151CD3614C879D000DC6270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceRoll/DiceRoll-Prefix.pch";
+				INFOPLIST_FILE = "DiceRoll/DiceRoll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D151CD3714C879D000DC6270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiceRoll/DiceRoll-Prefix.pch";
+				INFOPLIST_FILE = "DiceRoll/DiceRoll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D151CD1114C879CF00DC6270 /* Build configuration list for PBXProject "DiceRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D151CD3314C879D000DC6270 /* Debug */,
+				D151CD3414C879D000DC6270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D151CD3514C879D000DC6270 /* Build configuration list for PBXNativeTarget "DiceRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D151CD3614C879D000DC6270 /* Debug */,
+				D151CD3714C879D000DC6270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D151CD0E14C879CF00DC6270 /* Project object */;
+}
