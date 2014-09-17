@@ -21,8 +21,11 @@
 // städa upp den givna koden. Som du säkert ser så är koden i throwDice inte
 // jättebra skriven. Du får strukturera om den hur du vill, men det kan vara
 // praktiskt att använda t.ex. en NSArray för att lagra de olika bild-objekten för
-// respektive tärning. Ingen if-sats-programmering (på det sättet som förekommer
-// i throwDice) är tillåten någonstans i uppgiften!
+// respektive tärning.
+// Ingen programmering med switch-cases eller if-satser på det sätt som förekommer i throwDice
+// är tillåten någonstans i uppgiften!
+//
+// Det är tillåtet att göra ändringar och tillägg i headerfilen också om du känner att det behövs.
 //
 // Tänk på att du ska slumpa fem olika tärningar per tryck och att du, efter att du 
 // slumpat, måste kunna komma åt värdet för respektive tärning på ett enkelt
