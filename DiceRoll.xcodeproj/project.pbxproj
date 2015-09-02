@@ -81,13 +81,9 @@
 		CCA6B5771B97422F00409354 /* DiceRoll */ = {
 			isa = PBXGroup;
 			children = (
-				CCA6B57C1B97422F00409354 /* AppDelegate.h */,
-				CCA6B57D1B97422F00409354 /* AppDelegate.m */,
-				CCA6B57F1B97422F00409354 /* ViewController.h */,
-				CCA6B5801B97422F00409354 /* ViewController.m */,
-				CCA6B5821B97422F00409354 /* Main.storyboard */,
+				CCA6B59E1B9743FB00409354 /* Controller */,
+				CCA6B59F1B97440600409354 /* Storyboard */,
 				CCA6B5851B97422F00409354 /* Images.xcassets */,
-				CCA6B5871B97422F00409354 /* LaunchScreen.xib */,
 				CCA6B5781B97422F00409354 /* Supporting Files */,
 			);
 			path = DiceRoll;
@@ -96,6 +92,8 @@
 		CCA6B5781B97422F00409354 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCA6B57C1B97422F00409354 /* AppDelegate.h */,
+				CCA6B57D1B97422F00409354 /* AppDelegate.m */,
 				CCA6B5791B97422F00409354 /* Info.plist */,
 				CCA6B57A1B97422F00409354 /* main.m */,
 			);
@@ -117,6 +115,24 @@
 				CCA6B5931B97422F00409354 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA6B59E1B9743FB00409354 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCA6B57F1B97422F00409354 /* ViewController.h */,
+				CCA6B5801B97422F00409354 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CCA6B59F1B97440600409354 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CCA6B5821B97422F00409354 /* Main.storyboard */,
+				CCA6B5871B97422F00409354 /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +432,7 @@
 				CCA6B59A1B97422F00409354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCA6B59B1B97422F00409354 /* Build configuration list for PBXNativeTarget "DiceRollTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				CCA6B59D1B97422F00409354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
