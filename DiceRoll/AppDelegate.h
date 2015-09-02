@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  DiceRoll
 //
-//  Created by Alek Åström on 2012-01-19.
-//  Copyright (c) 2012 Linköping University. All rights reserved.
+//  Created by Cenny Davidsson on 2015-09-02.
+//  Copyright (c) 2015 Linköpings University. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
 @end
+

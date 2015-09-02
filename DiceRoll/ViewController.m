@@ -2,10 +2,10 @@
 //  ViewController.m
 //  DiceRoll
 //
-//  Created by Alek Åström on 2012-01-19.
-//  Edited by Cenny Davidsson 2014-01-15.
-//  Copyright (c) 2012 Linköping University. All rights reserved.
+//  Created by Cenny Davidsson on 2015-09-02.
+//  Copyright (c) 2015 Linköpings University. All rights reserved.
 //
+
 
 #import "ViewController.h"
 
@@ -27,7 +27,7 @@
 //
 // Det är tillåtet att göra ändringar och tillägg i headerfilen också om du känner att det behövs.
 //
-// Tänk på att du ska slumpa fem olika tärningar per tryck och att du, efter att du 
+// Tänk på att du ska slumpa fem olika tärningar per tryck och att du, efter att du
 // slumpat, måste kunna komma åt värdet för respektive tärning på ett enkelt
 // sätt - annars kan du inte implementera saveThrow nedan. Det kan vara
 // praktiskt att skapa flera hjälp-metoder.
@@ -93,16 +93,16 @@
 //
 // Notera att tärningarnas värden även ska summeras och visas. I den givna koden
 // kommer bara den senast kastade tärningen att visas. Du måste således komplettera
-// med att visa resterande tärningar, totalsumma och se till att bevara de senaste 
-// kasten. 
+// med att visa resterande tärningar, totalsumma och se till att bevara de senaste
+// kasten.
 //
-// Textetiketten kommer alltid bara visa de senaste tio raderna, oavsett hur många 
+// Textetiketten kommer alltid bara visa de senaste tio raderna, oavsett hur många
 // rader strängen den visar innehåller (detta är inställt med Interface Builder).
 // Du behöver inte bry dig om att räkna hur många rader som visas för tillfället
 // och försöka anpassa så bara de tio senaste raderna finns i textsträngen.
 //--
 
-- (IBAction)saveThrow {    
+- (IBAction)saveThrow {
     self.latestTenThrows.text = [NSString stringWithFormat:@"%d", self.dieValue];
 }
 @end
